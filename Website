@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arsalan’s Design Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: #0b0b0f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 80px 10%;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+
+    header p {
+      margin-top: 15px;
+      font-size: 1.2rem;
+      color: #b3b3b3;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 30px;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #6a5cff, #9b8cff);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .services, .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #14141c;
+      padding: 25px;
+      border-radius: 16px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Arsalan’s Design Studio</h1>
+  <p>Bold design for brands that want to stand out.</p>
+  <a href="#contact" class="btn">Get in Touch</a>
+</header>
+
+<section>
+  <h2>About</h2>
+  <p>
+    I’m Arsalan, a freelance graphic designer creating clean, modern visuals that help brands communicate clearly and confidently.
+  </p>
+</section>
+
+<section>
+  <h2>Services</h2>
+  <div class="services">
+    <div class="card">Branding & Logo Design</div>
+    <div class="card">Social Media Graphics</div>
+    <div class="card">Business & Marketing Designs</div>
+    <div class="card">Custom Design Requests</div>
+  </div>
+</section>
+
+<section>
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <div class="card">Project 1</div>
+    <div class="card">Project 2</div>
+    <div class="card">Project 3</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Let’s build something clean and impactful.</p>
+</section>
+
+<footer>
+  © 2026 Arsalan’s Design Studio
+</footer>
+
+</body>
+</html>
